@@ -4,17 +4,17 @@ Este projeto é um protótipo de IoT desenvolvido para monitorar a temperatura a
 
 ## 🎯 Objetivo
 
-Demonstrar a integração entre software (lógica C++) e hardware (sensores e atuadores) utilizando a plataforma Arduino. O sistema lê a temperatura a cada 2 segundos e aciona um alerta luminoso caso o ambiente ultrapasse um limite de segurança predefinido (28°C).
+Demonstrar a integração entre software (lógica C++) e hardware (sensores e atuadores) utilizando a plataforma Arduino. O sistema lê a temperatura a cada 2 segundos e aciona um alerta luminoso caso o ambiente ultrapasse um limite de segurança predefinido em 28°C.
 
 ## 🛠️ Hardware Utilizado
 
-* Placa Arduino Uno (ou compatível)
+* Placa Arduino Uno genêrica
 * Sensor de Temperatura e Umidade DHT11
 * 1 LED Vermelho (Alerta)
 * 1 LED Verde (Status Normal)
 * Resistores e Jumpers
 
-## ⚙️ Como Funciona (Lógica)
+## ⚙️ Como Funciona na lógica
 
 O código, escrito em C++, segue esta lógica:
 1.  O Arduino inicializa o sensor.
